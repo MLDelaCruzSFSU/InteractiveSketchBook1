@@ -1,0 +1,16 @@
+/* the * indicates universal styles, we will get into that later in the semester
+for now, you can leave these alone */
+
+* {
+    margin: 4px;
+    padding: 4px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: "Oswald", sans-serif;
+}
+
+h4 {
+    text-decoration: underline;
+}

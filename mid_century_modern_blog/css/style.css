@@ -1,0 +1,148 @@
+/* remember that style sheets cascade, so whatever is on the bottom will override whats on top. Don't have multiple statements for the same element. Organization and hierarchy are key, start with larger elements and work your way down.
+
+Do they best you can with this, talk with each other and help each other. Most colors and fonts are provided for you. Use adobe color to find the other colors from the sample image.*/
+* {
+    margin: 0;
+    
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.josefin-sans-bold {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+body{ 
+  background-color: #F49B4C;
+  padding: 10px;
+}
+
+.wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #C7E2F2;
+  
+
+}
+
+h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 37px;
+  color: #3a400c;
+  text-transform: uppercase;
+  padding: 20px 10px;
+}
+
+img {
+  width: 800px;
+  height: auto;
+  padding: 20px 10px;
+}
+
+header {
+  text-align: center;
+}
+
+body a {
+  text-decoration: none;
+  
+}
+
+body nav{
+  color: #047F8C;
+  text-align: center;
+  padding: 30px 10%;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-around;
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 22.5px;
+  padding: 20px 10px;
+}
+
+article h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #047F8C;
+  padding: 20px 10px;
+
+}
+
+aside img {
+  width: 250px;
+  height: auto;
+  padding: 20px 10px;
+}
+
+p {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  padding: 20px 10px;
+}
+
+li {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+aside h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 20px 10px;
+}
+
+aside h4 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 20px 10px;
+  text-decoration: underline;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  background-color: #04ADBF;
+
+}
+
+
+footer a {
+   background-color: #04ADBF;
+
+  color: #3A400C;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+footer p {
+  background-color: #04ADBF;
+  color: #3A400C;
+  text-align: center;
+  padding: 30px 400px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+}
