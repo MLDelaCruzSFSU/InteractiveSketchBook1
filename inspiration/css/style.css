@@ -22,14 +22,19 @@ p {
     font-size: 12px;
 }
 
-#One {
+.artist-content {
     display: flex;
+    gap: 20px;
 }
 
-#Two {
-    display: flex;
+.artist-image {
+    width: 450px;
 }
 
-#Three {
-    display: flex;
+.artist-image img {
+    width: 100%;
+}
+
+.artist-text {
+    flex: 1;
 }
