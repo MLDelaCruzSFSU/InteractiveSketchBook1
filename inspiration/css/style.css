@@ -21,3 +21,15 @@ p {
 
     font-size: 12px;
 }
+
+#One {
+    display: flex;
+}
+
+#Two {
+    display: flex;
+}
+
+#Three {
+    display: flex;
+}

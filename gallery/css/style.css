@@ -22,3 +22,9 @@ section a {
     color:rgb(104, 15, 176);
     margin-bottom: px;
 }
+
+#Images {
+    display : flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
