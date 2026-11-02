@@ -125,7 +125,15 @@ hint: adjust the first two value only if they are negative values to begin with,
   box-shadow: 20px 20px 0px 0px rgba(246, 241, 213, .5);
 } 
 
+nav a {
+  color: white;
+}
 
+footer {
+  color: white;
+  position: absolute;
+  top: 105% ;
+}
 
 
 
