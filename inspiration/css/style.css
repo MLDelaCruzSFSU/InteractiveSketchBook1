@@ -2,8 +2,8 @@
 for now, you can leave these alone */
 
 * {
-    margin: 2;
-    padding: 1;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -13,6 +13,7 @@ go ahead and play with these, can you get the colors to change? What do you noti
 
 body {
 
+    
     color: #26241C;
     background-color: #D6CFC7;
 }

@@ -2,15 +2,29 @@
 for now, you can leave these alone */
 
 * {
-    margin: 4px;
-    padding: 4px;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     
 }
 
+html {
+    height: 100%;
+}
+
+
+body {
+    border: 1px solid gray;
+    color: #26241C;
+    background-color: #D6CFC7;
+    min-height: 100%;
+    margin: 20px;
+    padding: 20px;
+
+}
 h1 {
     text-align: center;
-    
+    font-family: "Oswald", sans-serif;
 }
 
 
@@ -37,23 +51,62 @@ nav{
     display: flex;
 }
 
-body {
-    border: 1px solid gray;
-    color: #26241C;
-    background-color: #D6CFC7;
-
+.checkpoint {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: crimson;
+    color: white;
+    text-decoration: none;
+    margin: 5px;
 }
 
 #DCLogo {
+    display: block;
+    width: 13%;
+    margin: 0 auto;
     transition-duration: 2s;
-    width: 10%;
-    position: relative;
-    left: 43% ;
 }
 
 #DCLogo:hover {
     transform: rotate(720deg);
 }
 
+@media (max-width: 800px) {
+    nav {
+        flex-wrap: wrap;
+    }
 
+    nav a {
+        font-size: 20px;
+    }
 
+     #DCLogo {
+        width: 11%;
+    }
+}
+
+@media (max-width: 500px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    #DCLogo {
+        width: 9%;
+    }
+
+    body {
+        margin: 5px;
+        padding: 10px;
+    }
+
+    .checkpoint {
+        display: block;
+        text-align: center;
+    }
+}

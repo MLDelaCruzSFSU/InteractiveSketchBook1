@@ -12,15 +12,30 @@ go ahead and play with these, can you get the colors to change? What do you noti
  */
 
 body {
-
+    border: 1px solid gray;
     color: #26241C;
     background-color: #D6CFC7;
+    min-height: 100%;
+    margin: 4px;
+    padding: 4px;
 }
 
 #content {
     display: flex;
+    gap: 10px;
 }
 
 iframe {
     width: 740px;
+}
+
+@media (max-width: 800px) {
+    #content {
+        flex-direction: column;
+    }
+
+    iframe {
+        width: 100%;
+        max-width: 740px;
+    }
 }

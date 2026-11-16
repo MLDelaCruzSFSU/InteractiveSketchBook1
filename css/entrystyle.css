@@ -2,14 +2,20 @@
 for now, you can leave these alone */
 
 * {
-    margin: 4px;
-    padding: 4px;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
-h1 {
-    font-family: "Oswald", sans-serif;
+
+#intro p {
+    margin-bottom: 15px;
 }
+
+#intro h3, #intro h4 {
+    margin-bottom: 10px;
+}
+
 
 h4 {
     text-decoration: underline;
